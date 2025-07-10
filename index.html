@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+  
+</head>
+<body >
+  
+    <h1 id="mainHeading" class="main-heading">
+       
+        Your To-Do List — Make Your Day Productive 🌞
+    </h1>
+
+    <div class="container">
+        <div id="left">
+            <div class="section-heading">
+                <div class="task-info">
+                  <span class="fixedtext">📝 Your Tasks</span>
+                  <span class="yourtasks" id="yourTasks">taskadded:0, completed:0</span>
+                </div>
+                <button class="changetheme" id="changeTheme">darkmode</button>
+              </div>
+             
+           <div id="taskContainer">
+            
+           </div>
+          
+        
+            <div tabindex="0" id="button">
+                <img src="images/plus.svg" alt="">
+                <input aria-label="Task input" placeholder="type your task" type="text" id="addTask">
+            </div>
+        </div>
+        <div id="right">
+            <div id="box1" class="box">
+                <h3 id="MonthYear" class="monthyear">
+                    
+                </h3>
+                <div id="Calender" class="calender">
+           
+                    
+                </div>
+            </div>
+            <div id="box2" class="box">
+                <div id="clockBox" class="clock-box"></div>
+                <div id="Greetings" class="greetings">
+                    <p id="DayDate" class="daydate">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </p>
+                    <p class="greetTime" id="GreetTime"></p>
+                    <p id="Productivity" class="productivity">📊 Productivity:0</p>
+                    <div id="productivityBar" class="productivitybar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
