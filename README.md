@@ -37,11 +37,16 @@ A sleek and responsive To-Do list application built using **HTML**, **CSS**, and
 
 ```
 todo-productivity-app/
-├── index.html        # Main HTML page
-├── style.css         # CSS styles
-├── script.js         # JavaScript functionality
-├── todoUi.png        # UI Screenshot
-└── README.md         # Project documentation
+├── index.html           # Main HTML file
+├── style.css            # CSS styling
+├── script.js            # JavaScript logic
+├── README.md            # Project documentation
+├── todoUi.png           # Screenshot image
+└── images/              # UI icons and assets
+    ├── circle.svg
+    ├── delete.svg
+    ├── img4.jpg
+    └── plus.svg
 ```
 
 ## 📸 Screenshot
