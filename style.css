@@ -374,7 +374,7 @@ body {
     background-color: aqua;
     justify-content: center;
     align-items: start;
-    background-image: url('img4.jpg');
+    background-image: url('images/img4.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -580,7 +580,7 @@ body {
 
 .dark-mode .container {
   position: relative;
-  background-image: url('img4.jpg');
+  background-image: url('images/img4.jpg');
   background-color: rgba(0, 0, 0, 0.6);
 
   background-blend-mode: multiply;
@@ -642,6 +642,7 @@ body {
   .container {
     padding: 20px;
     gap: 20px;
+    background-image: url('images/img4.jpg');
   }
 
   #left,
